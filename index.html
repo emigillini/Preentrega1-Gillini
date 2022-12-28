@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="shortcut icon" href="/imagenes/continents-774842_1920.jpg" type="image/x-icon">
+    <title>Trivia de paises</title>
+</head>
+<body>
+
+    <header>
+        
+        <div>
+            <h1>Super Trivia de Paises y capitales</h1>
+        </div>
+
+    </header>
+    
+    <section>
+        <div>
+            <h2>Elige la capital correcta</h2>
+            <h3> Cual es la capital de los siguientes paises, cada respuesta correcta te da 10 puntos, si te quivocas, restas 10 puntos.</h3>
+        </div>
+
+        <div>
+            <p>Cual es la Capital de Bulgaria</p>
+            <button onclick = correcto() >Sofia</button>
+            <button onclick = incorrecto()>Varsovia</button>
+            <button onclick = incorrecto()>Munich</button>
+        </div>
+
+        <div>
+            <p>Cual es la Capital de Holanda</p>
+            <button onclick = incorrecto()>Madrid</button>
+            <button onclick = correcto()>Amsterdam</button>
+            <button onclick = incorrecto()>Munich</button>
+        </div>
+
+        <div>
+            <p>Cual es la Capital de Peru</p>
+            <button onclick = incorrecto()>Brasilia</button>
+            <button onclick = incorrecto()>La Paz</button>
+            <button onclick = correcto()>Lima</button>
+        </div>
+
+        <div>
+            <p>Cual es la Capital de España</p>
+            <button onclick = correcto()>Madrid</button>
+            <button onclick = incorrecto()>Barcelona</button>
+            <button onclick = incorrecto()>Zaragoza</button>
+        </div>
+
+        <div>
+            <p>Cual es la Capital de Argentina</p>
+            <button onclick = incorrecto()>La Plata</button>
+            <button onclick = correcto()>Buenos Aires</button>
+            <button onclick = incorrecto()>Cordoba</button>
+        </div>
+
+    </section>
+
+    <section >
+        
+            <h2>A que pais corresponde cada bandera</h2>
+            <h3>Mira la bandera y selecciona a que pais pertenece</h3>
+        
+
+        <div class="banderas">
+            <img src="/imagenes/italy-162326.svg" width="100px"  alt="bandera">
+            <button onclick = incorrecto()>Alemania</button>
+            <button onclick = correcto()>Italia</button>
+            <button onclick = incorrecto()>Irlanda</button>
+        </div>
+
+        <div class="banderas">
+            <img src="/imagenes/china-162389.svg" width="100px"  alt="bandera">
+            <button onclick = correcto()>China</button>
+            <button onclick = incorrecto()>Japon</button>
+            <button onclick = incorrecto()>Malasia</button>
+        </div>
+
+        <div class="banderas">
+            <img src="/imagenes/norway-162381.svg" width="100px"  alt="bandera">
+            <button onclick = incorrecto()>Suecia</button>
+            <button onclick = incorrecto()>Finlandia</button>
+            <button onclick = correcto()>Noruega</button>
+        </div>
+
+        <div class="banderas">
+            <img src="/imagenes/south-africa-162425.svg" width="100px"  alt="bandera">
+            <button onclick = incorrecto()>Senegal</button>
+            <button onclick = correcto()>Sudafrica</button>
+            <button onclick = incorrecto()>Nigeria</button>
+        </div>
+
+        <div class="banderas">
+            <img src="/imagenes/ukraine-26179.svg" width="100px"  alt="bandera">
+            <button onclick = correcto()>Ucrania</button>
+            <button onclick = incorrecto()>Rusia</button>
+            <button onclick = incorrecto()>Irlanda</button>
+
+        </div>
+
+    </section>
+
+    <section class="totales">
+
+        <h2>Total de puntos</h2>
+
+        <button id="totalPuntos" onclick="resultado()">Total Puntos</button>
+        <button id="categoria" onclick="categoria()">Tu Categoria</button>
+
+    </section >
+    
+<script src="/miarchivo.js"></script>
+</body>
+</html> 

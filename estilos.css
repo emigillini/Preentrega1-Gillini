@@ -1,0 +1,61 @@
+
+body{
+    background-image: url(/imagenes/continents-774842_1920.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+}
+
+h1,h2{
+    border: 2px solid black; 
+    background-color: aliceblue;
+    text-shadow: red 1px 0 2px;
+}
+
+h3{
+    font-size: 22px;
+    color: blue;
+    text-decoration: underline;
+    
+}
+
+.totales{
+    height: 200px;
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    margin: 20px;
+}
+
+.banderas{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+img{
+    margin-top: 20px;
+}
+
+#totalPuntos, #categoria{
+    width: 150px;
+    height: 75px;
+    color: white;
+    background-color: rgb(36, 21, 21);
+    margin: 20px;
+}
+
+button:hover, #totalPuntos:hover, #categoria:hover{
+    background-color: red;
+    border-radius: 10%;
+}
