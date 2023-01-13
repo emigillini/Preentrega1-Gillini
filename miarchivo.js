@@ -66,3 +66,25 @@ if (jugar == "si"){
 
 }
 
+// Create an array of capital city objects
+const capitalCities = [
+    {name: "Paris", country: "France"},
+    {name: "Madrid", country: "Spain"},
+    {name: "Rome", country: "Italy"},
+    {name: "London", country: "United Kingdom"},
+    {name: "Berlin", country: "Germany"}
+];
+
+// Select a random capital city object from the array
+var currentCapital = capitalCities[Math.floor(Math.random() * capitalCities.length)];
+
+// Ask the user to guess the capital city
+var userGuess = prompt("What is the capital city of " + currentCapital.country + "?");
+
+// Check if the user's guess is correct
+if (userGuess === currentCapital.name) {
+    alert("Correct! The capital city of " + currentCapital.country + " is " + currentCapital.name + ".");
+} else {
+    alert("Incorrect. The capital city of " + currentCapital.country + " is actually " + currentCapital.name + ".");
+}
+
