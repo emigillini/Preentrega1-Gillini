@@ -59,3 +59,6 @@ button:hover, #totalPuntos:hover, #categoria:hover{
     background-color: red;
     border-radius: 10%;
 }
+.habitantes{
+    display: inline-flex;
+}
