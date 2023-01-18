@@ -66,6 +66,8 @@ if (jugar == "si"){
 }
 }
 
+
+
 class paisesDatos {
     constructor(nombre,capital,habitantes){
     this.nombre= nombre;
@@ -139,3 +141,7 @@ const x = paisesAprendidos.join("\n ")
 resultado=() => {alert("El total de puntos acumulados es " + total );
 alert("Aprendiste sobre los siguientes paises ="+ "\n" + x)
 }
+
+
+
+
